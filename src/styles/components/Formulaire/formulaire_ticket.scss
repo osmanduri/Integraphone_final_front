@@ -1,0 +1,246 @@
+.formulaire_ticket_joindre_input{
+
+    >input{
+        width: 640px;
+        height: 54px;
+        margin-top: 30px;
+        padding-left: 20px;
+        font-size: 18px;
+        border: transparent;
+        border: 3px solid #484848;
+        border-radius: 5px;
+        outline: none;
+        color: #8e8e8e;
+        caret-color: transparent;
+        cursor: default;
+    }
+}
+
+.formulaire_ticket_joindre{
+    width: 640px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+    >button{
+        border: 2px solid black;
+        background: #C4C4C4;
+        width: 162px;
+        height: 30px;
+        cursor: pointer;
+    }
+}
+
+.formulaire_ticket_commentaire{
+    margin-top: 30px;
+    >textarea{
+        width: 640px;
+        height: 300px;
+        resize: none;
+        padding: 20px;
+        font-size: 18px;
+        border: 3px solid #484848;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+
+.error_email{
+    width: 640px;
+    color: red;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-transform: capitalize;
+
+}
+
+.my_picture{
+    display: flex;
+    justify-content: flex-start;
+    width: 640px;
+    >img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .formulaire_ticket_joindre_input{
+
+        >input{
+            width: 180px;
+            height: 54px;
+            margin-top: 30px;
+            padding-left: 20px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            outline: none;
+            color: #8e8e8e;
+            caret-color: transparent;
+            font-size: 12px;
+        }
+    }
+    
+    .formulaire_ticket_joindre{
+        width: 180px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+    
+        >button{
+            border: 2px solid black;
+            background: #C4C4C4;
+            width: 90px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+    
+    .formulaire_ticket_commentaire{
+        margin-top: 30px;
+        >textarea{
+            width: 180px;
+            height: 300px;
+            resize: none;
+            padding: 20px;
+            font-size: 12px;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            
+        }
+    }
+    .my_picture{
+        display: flex;
+        justify-content: flex-start;
+        width: 180px;
+        >img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .formulaire_ticket_joindre_input{
+
+        >input{
+            width: 225px;
+            height: 54px;
+            margin-top: 30px;
+            padding-left: 20px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            outline: none;
+            color: #8e8e8e;
+            caret-color: transparent;
+            font-size: 12px;
+        }
+    }
+    
+    .formulaire_ticket_joindre{
+        width: 225px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+    
+        >button{
+            border: 2px solid black;
+            background: #C4C4C4;
+            width: 90px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+    
+    .formulaire_ticket_commentaire{
+        margin-top: 30px;
+        >textarea{
+            width: 225px;
+            height: 300px;
+            resize: none;
+            padding: 20px;
+            font-size: 12px;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            
+        }
+    }
+    .my_picture{
+        display: flex;
+        justify-content: flex-start;
+        width: 225px;
+        >img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .devis{
+        >.devis_inside {
+            width: 80%;
+            height: auto;
+        }
+    }
+
+    .formulaire_ticket_joindre_input{
+
+        >input{
+            width: 350px;
+            height: 54px;
+            margin-top: 30px;
+            padding-left: 20px;
+            font-size: 18px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            outline: none;
+            color: #8e8e8e;
+            caret-color: transparent;
+        }
+    }
+    .formulaire_ticket_joindre{
+        width: 350px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+    
+        >button{
+            border: 2px solid black;
+            background: #C4C4C4;
+            width: 90px;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+    
+    .formulaire_ticket_commentaire{
+        margin-top: 30px;
+        >textarea{
+            width: 350px;
+            height: 300px;
+            resize: none;
+            padding: 20px;
+            font-size: 18px;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            
+            
+        }
+    }
+    .my_picture{
+        display: flex;
+        justify-content: flex-start;
+        width: 350px;
+
+        >img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+}

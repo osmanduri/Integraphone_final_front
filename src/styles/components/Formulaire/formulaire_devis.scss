@@ -1,0 +1,1089 @@
+.devis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.suivi_ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin-bottom: 64px;
+}
+
+.devis_inside{
+    border: 10px solid #DCC28F;
+    width: 913px;
+    height: 100%;
+    >p{
+        margin-top: 40px;
+    }
+    >.devis_logo{
+        width: 221px;
+        height: 210px;
+        margin-top: 76px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        >img{
+            width: 215px;
+            height: 210px;
+            border: 7px solid #BB8D33;
+            border-radius: 100%;
+
+        }
+
+    }
+
+    >form .devis_inside_input{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+        >label{
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 5px;
+            width: 594px;
+        }
+
+        >input{
+            width: 640px;
+            height: 54px;
+            padding-left: 20px;
+            font-size: 18px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            outline: none;
+
+            &::placeholder{
+                opacity: 0.7;
+            }
+            
+        }
+
+        >.devis_password_eyes{
+            position: relative;
+            >input{
+                width: 640px;
+                height: 54px;
+                margin-top: 0px;
+                padding-left: 20px;
+                font-size: 18px;
+                border: transparent;
+                border: 3px solid #484848;
+                border-radius: 5px;
+                outline: none;
+                //cursor: pointer;
+                color: black;
+
+                &:focus{
+                    caret-color: transparent; // do not allow blinking from mouse
+                }
+
+            }
+
+            >img{
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                top: 32px;
+                right: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    >p{
+        font-family: 'Baloo 2', sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 53px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    >input:focus::placeholder {
+        opacity: 0;
+    }
+
+
+    >input::placeholder{
+        
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+.input_ville_departement{
+    width: 640px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    >input{
+        width: 250px;
+        height: 54px;
+        padding-left: 20px;
+        font-size: 18px;
+        border: 3px solid #484848;
+        border-radius: 5px;
+        outline: none;
+
+        
+    }
+}
+
+.devis_bouton_envoyer{
+    width: 768px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+    >button{
+        width: 210px;
+        height: 47px;
+        background: #484848;
+        border: 3px solid #000000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+        cursor: pointer;
+
+    }
+}
+
+.liste_deroulant_type_demande{
+    border-bottom: 1px solid #484848;
+    border-left: 1px solid #484848;
+    border-right: 1px solid #484848;
+    overflow-y: scroll;
+    
+    height: 310px;
+
+    >p{
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        background: white;
+        color: #484848;
+    }
+    >p:hover{
+        background: #484848;
+        color: white;
+    }
+}
+
+.liste_deroulant_type_ville{
+    border-bottom: 1px solid #484848;
+    border-left: 1px solid #484848;
+    border-right: 1px solid #484848;
+    overflow-y: scroll;
+    height: 150px;
+    position: absolute;
+    top: 1526px;
+    width: 250px;
+    background: white;
+
+
+
+    >p{
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        background: white;
+        color: #484848;
+    }
+    >p:hover{
+        background: #484848;
+        color: white;
+    }
+}
+
+.liste_deroulant_type_departement{
+    border-bottom: 1px solid #484848;
+    border-left: 1px solid #484848;
+    border-right: 1px solid #484848;
+    overflow-y: scroll;
+    height: 150px;
+    position: absolute;
+    top: 1526px;
+    right:630px;
+    width: 250px;
+    background: white;
+
+    
+
+    >p{
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        background: white;
+        color: #484848;
+    }
+    >p:hover{
+        background: #484848;
+        color: white;
+    }
+}
+
+.liste_deroulant_severite{
+    border-bottom: 1px solid #484848;
+    border-left: 1px solid #484848;
+    border-right: 1px solid #484848;
+    overflow-y: scroll;
+    height: 175px;
+
+    >p{
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        background: white;
+        color: #484848;
+    }
+    >p:hover{
+        background: #484848;
+        color: white;
+    }
+}
+
+.devis_textarea{
+    display: flex;
+    justify-content: center;
+
+    >textarea{
+        width: 640px;
+        margin-top: 100px;
+        padding: 20px;
+        border: 3px solid #484848;
+        border-radius: 5px;
+        resize: none;
+        font-size: 18px;
+        outline: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .devis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: 64px;
+    }
+    
+    .devis_inside{
+        border: 4px solid #DCC28F;
+        width: 75%;
+        height: 92%;
+        align-items: center;
+    
+        >.devis_logo{
+            width: 180px;
+            height: 170px;
+            margin-top: 26px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            >img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    
+        >form .devis_inside_input{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+    
+            >input{
+                width: 180px;
+                height: 54px;
+                margin-top: 30px;
+                padding-left: 10px;
+                font-size: 18px;
+                border: transparent;
+                border: 3px solid #484848;
+                border-radius: 5px;
+                outline: none;
+                font-size: 12px;
+            }
+    
+            >.devis_password_eyes{
+                position: relative;
+                >input{
+                    width: 180px;
+                    height: 51px;
+                    margin-top: 30px;
+                    padding-left: 10px;
+                    font-size: 18px;
+                    border: transparent;
+                    border: 3px solid #484848;
+                    border-radius: 5px;
+                    outline: none;
+                    font-size: 12px;
+                }
+    
+                >img{
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    top: 41px;
+                    right: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        >p{
+            
+            font-family: 'Baloo 2', sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;        
+    
+        }
+    
+        >input:focus::placeholder {
+            opacity: 0;
+        }
+    
+    
+        >input::placeholder{
+            
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            width: 100%;
+            height: 100%;
+    
+        }
+    
+    }
+    
+    .input_ville_departement{
+        width: 180px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    
+        >input{
+            width: 85px;
+            height: 54px;
+            padding-left: 5px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            font-size: 11px;
+            outline: none;
+        }
+    }
+    
+    .devis_bouton_envoyer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        >button{
+            width: 90px;
+            height: 37px;
+            background: #484848;
+            border: 3px solid #000000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            color: white;
+            cursor: pointer;
+            margin-top: 40px;
+    
+        }
+    }
+    
+    .liste_deroulant_type_demande{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 300px;
+    
+        >p{
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+
+    .liste_deroulant_type_ville{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+        position: absolute;
+        top: 1305px;
+        width: 85px;
+        background: white;
+    
+    
+    
+        >p{
+            font-size: 12px;
+            padding: 5px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .liste_deroulant_type_departement{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+        position: absolute;
+        top: 1333px;
+        right:630px;
+        width: 150px;
+        background: white;
+    
+        
+    
+        >p{
+            font-size: 20px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .liste_deroulant_severite{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+    
+        >p{
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .devis_textarea{
+        display: flex;
+        justify-content: center;
+    
+        >textarea{
+            width: 180px;
+            margin-top: 100px;
+            padding: 20px;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            resize: none;
+            font-size: 18px;
+            outline: none;
+        }
+    
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .devis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: 64px;
+    }
+    
+    .devis_inside{
+        border: 4px solid #DCC28F;
+        width: 75%;
+        height: 92%;
+        align-items: center;
+    
+        >.devis_logo{
+            width: 180px;
+            height: 170px;
+            margin-top: 26px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            >img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    
+        >form .devis_inside_input{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+    
+            >input{
+                width: 225px;
+                height: 54px;
+                margin-top: 0px;
+                padding-left: 10px;
+                font-size: 18px;
+                border: transparent;
+                border: 3px solid #484848;
+                border-radius: 5px;
+                outline: none;
+                font-size: 12px;
+            }
+            >label{
+                width: 225px;
+                height: 24px;
+                font-size: 14px;
+                
+            } 
+    
+            >.devis_password_eyes{
+                position: relative;
+                >input{
+                    width: 225px;
+                    height: 51px;
+                    margin-top: 30px;
+                    padding-left: 10px;
+                    font-size: 18px;
+                    border: transparent;
+                    border: 3px solid #484848;
+                    border-radius: 5px;
+                    outline: none;
+                    font-size: 12px;
+                }
+    
+                >img{
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    top: 41px;
+                    right: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        >p{
+            
+            font-family: 'Baloo 2', sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;        
+    
+        }
+    
+        >input:focus::placeholder {
+            opacity: 0;
+        }
+    
+    
+        >input::placeholder{
+            
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            width: 100%;
+            height: 100%;
+    
+        }
+    
+    }
+    
+    .input_ville_departement{
+        width: 225px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    
+        >input{
+            width: 110px;
+            height: 54px;
+            padding-left: 10px;
+            font-size: 18px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            font-size: 12px;
+            outline: none;
+        }
+    }
+    
+    .devis_bouton_envoyer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        >button{
+            width: 90px;
+            height: 37px;
+            background: #484848;
+            border: 3px solid #000000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            color: white;
+            cursor: pointer;
+            margin-top: 40px;
+    
+        }
+    }
+    
+    .liste_deroulant_type_demande{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 300px;
+    
+        >p{
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+
+    .liste_deroulant_type_ville{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+        position: absolute;
+        top: 1591px;
+        width: 110px;
+        background: white;
+    
+    
+    
+        >p{
+            font-size: 12px;
+            padding: 5px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .liste_deroulant_type_departement{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+        position: absolute;
+        top: 1333px;
+        right:630px;
+        width: 110px;
+        background: white;
+    
+        
+    
+        >p{
+            font-size: 20px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .liste_deroulant_severite{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+    
+        >p{
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .devis_textarea{
+        display: flex;
+        justify-content: center;
+    
+        >textarea{
+            width: 225px;
+            margin-top: 100px;
+            padding: 20px;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            resize: none;
+            font-size: 18px;
+            outline: none;
+        }
+    
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .devis{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: 64px;
+    }
+    
+    .devis_inside{
+        border: 4px solid #DCC28F;
+        width: 75%;
+        height: 92%;
+        align-items: center;
+    
+        >.devis_logo{
+            width: 180px;
+            height: 170px;
+            margin-top: 26px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            >img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+    
+        >form .devis_inside_input{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+    
+            >input{
+                width: 350px;
+                height: 54px;
+                margin-top: 0px;
+                padding-left: 10px;
+                font-size: 18px;
+                border: transparent;
+                border: 3px solid #484848;
+                border-radius: 5px;
+                outline: none;
+                font-size: 12px;
+            }
+            >label{
+                width: 350px;
+                height: 24px;
+                font-size: 14px;
+                margin-top: 10px;
+                
+            } 
+    
+            >.devis_password_eyes{
+                position: relative;
+                >input{
+                    width: 350px;
+                    height: 51px;
+                    margin-top: 30px;
+                    padding-left: 10px;
+                    font-size: 18px;
+                    border: transparent;
+                    border: 3px solid #484848;
+                    border-radius: 5px;
+                    outline: none;
+                    font-size: 12px;
+                }
+    
+                >img{
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    top: 41px;
+                    right: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        >p{
+            
+            font-family: 'Baloo 2', sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;        
+    
+        }
+    
+        >input:focus::placeholder {
+            opacity: 0;
+        }
+    
+    
+        >input::placeholder{
+            
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            width: 100%;
+            height: 100%;
+    
+        }
+    
+    }
+    
+    .input_ville_departement{
+        width: 350px;
+        height: 30px;
+        display: flex;
+        //justify-content: space-between;
+        //flex-direction: column;
+        margin-top: 30px;
+    
+        >input{
+            width: 350px;
+            height: 54px;
+            padding-left: 10px;
+            font-size: 18px;
+            border: transparent;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            font-size: 12px;
+            outline: none;
+            margin-top: 10px;
+        }
+    }
+    
+    .devis_bouton_envoyer{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        >button{
+            width: 90px;
+            height: 37px;
+            background: #484848;
+            border: 3px solid #000000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            color: white;
+            cursor: pointer;
+            margin-top: 40px;
+    
+        }
+    }
+    
+    .liste_deroulant_type_demande{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 300px;
+    
+        >p{
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+
+    .liste_deroulant_type_ville{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+        position: absolute;
+        top: 1538px;
+        width: 175px;
+        background: white;
+    
+    
+    
+        >p{
+            font-size: 12px;
+            padding: 5px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .liste_deroulant_type_departement{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+        position: absolute;
+        top: 1538px;
+        right:232px;
+        width: 170px;
+        background: white;
+    
+        
+    
+        >p{
+            font-size: 20px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .liste_deroulant_severite{
+        border-bottom: 1px solid #484848;
+        border-left: 1px solid #484848;
+        border-right: 1px solid #484848;
+        overflow-y: scroll;
+        height: 150px;
+    
+        >p{
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background: white;
+            color: #484848;
+        }
+        >p:hover{
+            background: #484848;
+            color: white;
+        }
+    }
+    
+    .devis_textarea{
+        display: flex;
+        justify-content: center;
+    
+        >textarea{
+            width: 225px;
+            margin-top: 100px;
+            padding: 20px;
+            border: 3px solid #484848;
+            border-radius: 5px;
+            resize: none;
+            font-size: 18px;
+            outline: none;
+        }
+    
+    }
+
+}

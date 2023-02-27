@@ -1,0 +1,269 @@
+.ticket_title{
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.ticket{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+
+    >a .creation_ticket{
+        border: 7px solid #DCC28F;
+        width: 237px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s ease-out;
+
+        >img{
+            width: 100px;
+            height: 100px;
+        }
+
+        >p{
+            margin-top: 20px;
+        }
+    }
+
+    >a .creation_ticket:hover{
+        transform: translate(3px, 3px);
+    }
+
+    >a .suivre_ticket{
+        border: 7px solid #DCC28F;
+        width: 237px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-out;
+        >img{
+            width: 100px;
+            height: 100px;
+        }
+
+        >p{
+            margin-top: 20px;
+        }
+    }
+
+    >a .suivre_ticket:hover{
+        transform: translate(3px, 3px);
+        
+    }
+}
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .ticket_title{
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .ticket{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        width: 100%;
+        
+    
+        >a .creation_ticket{
+            border: 5px solid #DCC28F;
+            width: 130px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-out;
+    
+            >img{
+                width: 40px;
+                height: 40px;
+            }
+    
+            >p{
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        }
+    
+        >a .creation_ticket:hover{
+            transform: translate(3px, 3px);
+        }
+    
+        >a .suivre_ticket{
+            border: 5px solid #DCC28F;
+            width: 130px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease-out;
+            >img{
+                width: 40px;
+                height: 40px;
+            }
+    
+            >p{
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        }
+    
+        >a .suivre_ticket:hover{
+            transform: translate(3px, 3px);
+            
+        }
+    }
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .ticket_title{
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .ticket{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        width: 100%;
+        
+    
+        >a .creation_ticket{
+            border: 5px solid #DCC28F;
+            width: 130px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-out;
+    
+            >img{
+                width: 40px;
+                height: 40px;
+            }
+    
+            >p{
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        }
+    
+        >a .creation_ticket:hover{
+            transform: translate(3px, 3px);
+        }
+    
+        >a .suivre_ticket{
+            border: 5px solid #DCC28F;
+            width: 130px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease-out;
+            >img{
+                width: 40px;
+                height: 40px;
+            }
+    
+            >p{
+                margin-top: 20px;
+                font-size: 12px;
+            }
+        }
+    
+        >a .suivre_ticket:hover{
+            transform: translate(3px, 3px);
+            
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .ticket_title{
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .ticket{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        width: 100%;
+        
+    
+        >a .creation_ticket{
+            border: 5px solid #DCC28F;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-out;
+    
+            >img{
+                width: 50px;
+                height: 50px;
+            }
+    
+            >p{
+                margin-top: 20px;
+                font-size: 14px;
+            }
+        }
+    
+        >a .creation_ticket:hover{
+            transform: translate(3px, 3px);
+        }
+    
+        >a .suivre_ticket{
+            border: 5px solid #DCC28F;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease-out;
+            >img{
+                width: 50px;
+                height: 50px;
+            }
+    
+            >p{
+                margin-top: 20px;
+                font-size: 14px;
+            }
+        }
+    
+        >a .suivre_ticket:hover{
+            transform: translate(3px, 3px);
+            
+        }
+    }
+    
+
+}

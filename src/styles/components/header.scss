@@ -1,0 +1,85 @@
+.header{
+    background: #484848;
+}
+
+.header_inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#484848;
+    height: 80px;
+
+}
+
+.header_info_left{
+    display: flex;
+    margin-left: 20px;
+    >p{
+        color: white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        >span{
+            margin-left: 20px;
+        }
+    }
+    a{
+        color: white;
+    }
+
+}
+
+.header_info_right{
+    display: flex;
+    margin-right: 20px;
+    a{
+        color: white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        >span{
+            margin-left: 20px;
+            color: white;
+        }
+    }
+    >span{
+        margin-left: 20px;
+        color: white;
+    }
+
+    >.disconnect{
+        cursor: pointer;
+    } 
+
+
+}
+
+.trait_header{
+    width: 1px;
+    height: 20px;
+    background: white;
+    margin-left: 20px;
+}
+
+.header-active{
+    >span{
+        text-decoration: underline;
+    }
+}
+
+.bienvenur_header{
+
+    display: flex;
+    justify-content: center;
+}
+
+.pseudo_header{
+    text-transform:capitalize;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .header{
+        display: none;
+    }
+}

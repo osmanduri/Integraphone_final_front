@@ -1,0 +1,59 @@
+.mention_legal{
+
+    >h2{
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 2.5rem;
+        color: #193b6c;
+        font-family: "Muli-Regular";
+        margin-top: 40px;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    >.structure_texte{
+        margin-top: 80px;
+
+        >.mention_text{
+            margin-top: 10px;
+            line-height: 24px;
+            font-family: "Muli-Regular";
+            letter-spacing: 1px;
+            text-align: left;
+            width: 70%;
+        }
+        >h3{
+            
+            padding-bottom: 20px;
+            font-family: "Muli-Regular";
+            color: #193b6c;
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 1.2;
+            padding-top: 20px;
+
+
+        }
+
+        >h4{
+            padding-bottom: 20px;
+            font-family: "Muli-Regular";
+            color: #193b6c;
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 1.2;
+            padding-top: 20px;
+            text-align: center;
+        }
+    
+        >p{
+            margin-top: 10px;
+            line-height: 24px;
+            font-family: "Muli-Regular";
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+
+}

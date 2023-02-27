@@ -1,0 +1,294 @@
+
+.home_background{
+    filter: drop-shadow(0px 34px 34px rgba(0, 0, 0, 2));
+    position: relative;
+}
+
+.home_background::before{
+    content: "";
+    background-image:  url("../../images/home_picture2.png");
+    width: 100%;
+    height: 900px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    //background-position: 50% 55%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.8;
+    
+}
+
+.home_text{
+    position: relative;
+    z-index: 2;
+    >h1{
+        font-size: 57px;
+        font-weight: 700;
+        font-family: 'Baloo 2', cursive;
+        line-height: 50px;
+    }
+    >.home_text_solution{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    padding-top: 100px;
+    margin-left: 100px;
+    >.lorem{
+        margin-top: 40px;
+        width: 562px;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    >.home_background_button{
+
+        margin-top: 300px;
+        display: flex;
+        >a{
+            color: white;
+            border: 1px white solid;
+            width: 300px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 21px;
+            background: rgba(0, 0, 0, 0.25);
+            border: 3px solid #DCC28F;
+          }
+          span{
+            color: white;
+            border: 1px white solid;
+            width: 300px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 21px;
+            margin-left: 40px;
+            background: #DCC28F;
+            border: 3px solid #DCC28F;
+            >a{
+                color: white;
+            }
+          }
+
+    }
+    
+}
+
+.services_titre{
+    padding-top: 20px;
+}
+
+.home_phone{
+    position: fixed;
+    z-index: 2;
+    left: 40px;
+    bottom: 36px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    
+    >a img{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        
+    }
+
+}
+
+.home_big_title{
+    color: #484848;
+    font-family: 'Baloo 2', cursive;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.avantages_integraphone{
+    padding-top: 120px;
+}
+
+
+.il_nous_font_confiance{
+    margin-top: 80px;
+    >h3{
+        
+        color: #484848;
+        font-family: 'Baloo 2', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+}
+
+.presentation_integraphone{
+    width: 1376px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.video_presentation{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    width: 100%;
+}
+
+.test100{
+    height: 300px;
+    width: 100%;
+    background: red;
+}
+
+.slider_home{
+    background: blue;
+    //height: 2000px;
+}
+
+.arrowScrollUp{
+    color: black;
+    >i{
+        font-size: 20px;
+    }
+}
+
+.styles_scroll-to-top__2A70v{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .home_big_title{
+        color: #484848;
+        font-family: 'Baloo 2', cursive;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+
+    .il_nous_font_confiance{
+        margin-top: 80px;
+        >h3{
+            color: #484848;
+            font-family: 'Baloo 2', cursive;
+            font-size: 20px;
+            width: 220px;
+            margin: auto;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: center; 
+        }
+    }
+
+    .presentation_integraphone{
+        width: 100%;
+        margin: auto;
+        padding-top: 150px;
+    }
+    .video_presentation{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    
+    .home_big_title{
+        color: #484848;
+        font-family: 'Baloo 2', cursive;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .il_nous_font_confiance{
+        margin-top: 80px;
+        >h3{
+            color: #484848;
+            font-family: 'Baloo 2', cursive;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: center; 
+        }
+    }
+    .presentation_integraphone{
+        width: 100%;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .video_presentation{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+        width: 100%;
+    }
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .home_big_title{
+        color: #484848;
+        font-family: 'Baloo 2', cursive;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .presentation_integraphone{
+        width: 100%;
+        margin: auto;
+        padding-top: 150px;
+    }
+    .video_presentation{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+        width: 100%;
+    }
+    
+
+}

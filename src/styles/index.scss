@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    >a {
+        color: black;
+    }
+}
+
+.header_fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease-in-out;
+}
+
+@import './components/retour_rafraichir.scss';
+@import './components/home.scss';
+@import './components/header.scss';
+@import './components/navigation.scss';
+@import './components/cards.scss';
+@import './components/avantages_integraphone.scss';
+@import './components/partenaire_logo.scss';
+@import './components/footer.scss';
+@import './components/Log/connexion.scss';
+@import './components/Log/inscription.scss';
+@import './components/Formulaire/formulaire_devis.scss';
+@import './components//Formulaire/formulaire_ok.scss';
+@import './components/a_propos.scss';
+@import './components/operateur.scss';
+@import './components/video_surveillance.scss';
+@import './components/slide.scss';
+@import './components/eligibilite.scss';
+@import './components/component_menu.scss';
+@import './components/ticket.scss';
+@import './components/Formulaire/formulaire_ticket.scss';
+@import './components/Formulaire/formulaire_suivi_ticket.scss';
+@import './components/liste_ticket.scss';
+@import './components/certification.scss';
+@import './components/cards_eligiblite.scss';
+@import './components/add_user.scss';
+@import './components/affichageMenuDynamique.scss';
+@import './components/affichageMenuDynamiqueLogo.scss';
+@import './components/liste_utilisateur.scss';
+@import './components/liste_utilisateurId.scss';
+@import './components/facture_contrat_user.scss';
+@import './components/Formulaire/reinitialisation_mot_de_passe.scss';
+@import './components/mention_legal.scss';
+@import './components/modal.scss';
+@import './components/ajouter_fibre_coefficient.scss';

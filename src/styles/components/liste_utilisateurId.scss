@@ -1,0 +1,455 @@
+.liste_utilisateurId {
+    >.liste_utilisateurId_main_cards {
+        border: 7px solid #DCC28F;
+        width: 800px;
+        margin: auto;
+        padding: 40px;
+        margin-top: 40px;
+        >.main_user {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            img {
+                width: 183px;
+                height: 183px;
+            }
+            >.main_user_nom_prenom {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                >p {
+                    margin-top: 20px;
+                }
+            }
+        }
+        >.facture_contrat {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            >.facture_contrat_inside {
+                >.ajout_facture {
+                    border: 3px solid #DCC28F;
+                    width: 200px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    >img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                >p {
+                    font-size: 13px;
+                    margin-left: 5px;
+                    margin-top: 10px;
+                    width: 200px;
+                    height: 30px;
+                    overflow: hidden;
+                }
+                >.ajout_facture_button_chargement {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 70px;
+                    >button {
+                        border: none;
+                        background: transparent;
+                        width: 120px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: #DCC28F;
+                        border-radius: 12px;
+                        cursor: pointer;
+                    }
+                    >img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+        .facture_cards {
+            >h4 {
+                text-align: center;
+                font-size: 30px;
+            }
+            >.facture_outside {
+                margin-bottom: 20px;
+                >.facture_cards_inside {
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 50px;
+                    font-size: 14px;
+                    >.textL {
+                        margin-left: 10px;
+                    }
+                    >.textR {
+                        margin-right: 10px;
+                    }
+                    >.textC {
+                        width: 350px;
+                        overflow: hidden;
+                        text-align: center;
+                    }
+                }
+                >.facture_bouton_supprimer {
+                    text-align: right;
+                    margin-top: 10px;
+                    >button {
+                        border: none;
+                        background: #DCC28F;
+                        width: 100px;
+                        height: 30px;
+                        border-radius: 12px;
+                        cursor: pointer;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pas_de_facture_contrat {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 23px;
+}
+
+.charger_type_contrat {
+    position: absolute;
+    margin-top: 40px;
+    >select {
+        margin-top: 5px;
+        padding: 5px;
+    }
+    >p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    // petit smartphone
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    // moyenne tablettes
+    .liste_utilisateurId {
+        >.liste_utilisateurId_main_cards {
+            border: 7px solid #DCC28F;
+            width: 80%;
+            margin: auto;
+            padding: 40px;
+            margin-top: 40px;
+            >.main_user {
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+                >.main_user_nom_prenom {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                    >p {
+                        margin-top: 20px;
+                        font-size: 11px;
+                    }
+                }
+            }
+            >.facture_contrat {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 40px;
+                >.facture_contrat_inside {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    >.ajout_facture {
+                        border: 3px solid #DCC28F;
+                        width: 120px;
+                        height: 50px;
+                        display: flex;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        >img {
+                            width: 10px;
+                            height: 10px;
+                        }
+                        >p {
+                            font-size: 11px;
+                        }
+                    }
+                    >p {
+                        text-align: center;
+                        font-size: 11px;
+                    }
+                    >.ajout_facture_button_chargement {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+                        >button {
+                            border: none;
+                            background: transparent;
+                            width: 120px;
+                            height: 40px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background: #DCC28F;
+                            border-radius: 12px;
+                            cursor: pointer;
+                        }
+                        >img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+            .facture_cards {
+                width: 100%;
+                >h4 {
+                    text-align: center;
+                    font-size: 30px;
+                }
+                >.facture_outside {
+                    margin-bottom: 20px;
+                    >.facture_cards_inside {
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-direction: column;
+                        height: 180px;
+                        margin-top: 30px;
+                        >.textL {
+                            margin-left: 0px;
+                            margin-top: 10px;
+                            font-weight: bold;
+                        }
+                        >.textR {
+                            margin-right: 0px;
+                            margin-bottom: 10px;
+                            font-size: 14px;
+                        }
+                        >.textC{
+                            width: 100%;
+                            overflow: hidden;
+                            text-align: center;
+                        }
+                        >p {
+                            text-align: center;
+                        }
+                    }
+                    >.facture_bouton_supprimer {
+                        text-align: center;
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        >button {
+                            border: none;
+                            background: #DCC28F;
+                            width: 100px;
+                            height: 30px;
+                            border-radius: 12px;
+                            cursor: pointer;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pas_de_facture_contrat {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+    .charger_type_contrat {
+        position: absolute;
+        margin-top: 50px;
+        >select {
+            margin-top: 5px;
+            padding: 5px;
+        }
+        >p {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .liste_utilisateurId {
+        >.liste_utilisateurId_main_cards {
+            border: 7px solid #DCC28F;
+            width: 80%;
+            margin: auto;
+            padding: 40px;
+            margin-top: 40px;
+            >.main_user {
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+                >.main_user_nom_prenom {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    text-align: center;
+                    >p {
+                        margin-top: 20px;
+                        font-size: 11px;
+                    }
+                }
+            }
+            >.facture_contrat {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 40px;
+                >.facture_contrat_inside {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    >.ajout_facture {
+                        border: 3px solid #DCC28F;
+                        width: 120px;
+                        height: 50px;
+                        display: flex;
+                        cursor: pointer;
+                        border-radius: 8px;
+                        >img {
+                            width: 10px;
+                            height: 10px;
+                        }
+                        >p {
+                            font-size: 11px;
+                        }
+                    }
+                    >p {
+                        text-align: center;
+                        font-size: 11px;
+                    }
+                    >.ajout_facture_button_chargement {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+                        >button {
+                            border: none;
+                            background: transparent;
+                            width: 120px;
+                            height: 40px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background: #DCC28F;
+                            border-radius: 12px;
+                            cursor: pointer;
+                        }
+                        >img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+            .facture_cards {
+                width: 100%;
+                >h4 {
+                    text-align: center;
+                    font-size: 30px;
+                }
+                >.facture_outside {
+                    margin-bottom: 20px;
+                    >.facture_cards_inside {
+                        border: 1px solid black;
+                        border-radius: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-direction: column;
+                        height: 180px;
+                        margin-top: 30px;
+                        >.textL {
+                            margin-left: 0px;
+                            margin-top: 10px;
+                            font-weight: bold;
+                        }
+                        >.textR {
+                            margin-right: 0px;
+                            margin-bottom: 10px;
+                            font-size: 14px;
+                        }
+                        >p {
+                            text-align: center;
+                        }
+                    }
+                    >.facture_bouton_supprimer {
+                        text-align: center;
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        >button {
+                            border: none;
+                            background: #DCC28F;
+                            width: 100px;
+                            height: 30px;
+                            border-radius: 12px;
+                            cursor: pointer;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pas_de_facture_contrat {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 23px;
+    }
+    .charger_type_contrat {
+        position: absolute;
+        margin-top: 50px;
+        >select {
+            margin-top: 5px;
+            padding: 5px;
+        }
+        >p {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+    }
+}

@@ -1,0 +1,140 @@
+.title_certification{
+    >h1{
+        color: #484848;
+        font-family: 'Baloo 2', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+
+.carousel_certification{
+    width: 1376px;
+    margin: auto;
+}
+
+.carousel_component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    >img{
+        width: 185px;
+        height: 58px;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .title_certification{
+        >h1{
+            color: #484848;
+            font-family: 'Baloo 2', cursive;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+
+    .carousel_certification{
+        width: 100%;
+        margin: auto;
+    }
+    .swiper-slide{
+        width: 1%;
+    }
+
+    .carousel_component{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        >img{
+            width: 50px;
+            height: 20px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .title_certification{
+        >h1{
+            color: #484848;
+            font-family: 'Baloo 2', cursive;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+
+    .carousel_certification{
+        width: 100%;
+        margin: auto;
+    }
+    .swiper-slide{
+        width: 1%;
+    }
+
+    .carousel_component{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        >img{
+            width: 80px;
+            height: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .title_certification{
+        >h1{
+            color: #484848;
+            font-family: 'Baloo 2', cursive;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 42px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+
+    .carousel_certification{
+        width: 100%;
+        margin: auto;
+    }
+    .swiper-slide{
+        width: 1%;
+    }
+
+    .carousel_component{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        >img{
+            width: 80px;
+            height: 30px;
+        }
+    }
+
+
+}

@@ -1,0 +1,288 @@
+.add_user {
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 4px solid #DCC28F;
+        >img {
+            width: 100px;
+            height: 100%;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        >h2 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        >input {
+            width: 300px;
+            height: 40px;
+            margin-top: 15px;
+            padding: 8px;
+            outline: none;
+            border: none;
+            border: 1px solid black;
+        }
+        >button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 170px;
+            height: 40px;
+            background: #484848;
+            border: 1px solid #000000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            color: white;
+            cursor: pointer;
+        }
+        >.isAdmin {
+            width: 300px;
+            text-align: left;
+            margin-top: 10px;
+            >.isAdmin_checkbox {
+                >label {
+                    margin-left: 10px;
+                }
+                >input {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.add_user_forbidden {
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    >p {
+        color: black;
+        padding: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    // petit smartphone
+    .add_user {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 250px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 4px solid #DCC28F;
+            >img {
+                width: 100px;
+                height: 100%;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 20px;
+            }
+            >h2 {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            >input {
+                width: 200px;
+                height: 40px;
+                margin-top: 15px;
+                padding: 8px;
+                outline: none;
+                border: none;
+                border: 1px solid black;
+            }
+            >button {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 143px;
+                height: 30px;
+                background: #484848;
+                border: 1px solid #000000;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                color: white;
+                cursor: pointer;
+            }
+            >.isAdmin {
+                width: 200px;
+                text-align: right;
+                margin-top: 10px;
+                >label {
+                    margin-left: 10px;
+                }
+                >input {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .add_user_forbidden {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 1px solid black;
+        width: 250px;
+        >p {
+            color: black;
+            padding: 40px;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .add_user {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 4px solid #DCC28F;
+            >img {
+                width: 100px;
+                height: 100%;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 20px;
+            }
+            >h2 {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            >input {
+                width: 225px;
+                height: 40px;
+                margin-top: 15px;
+                padding: 8px;
+                outline: none;
+                border: none;
+                border: 1px solid black;
+            }
+            >button {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 143px;
+                height: 30px;
+                background: #484848;
+                border: 1px solid #000000;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                color: white;
+                cursor: pointer;
+            }
+            >.isAdmin {
+                width: 225px;
+                text-align: right;
+                margin-top: 10px;
+                >label {
+                    margin-left: 10px;
+                }
+                >input {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .add_user_forbidden {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 1px solid black;
+        width: 250px;
+        >p {
+            color: black;
+            padding: 40px;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .add_user {
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border: 4px solid #DCC28F;
+            >img {
+                width: 100px;
+                height: 100%;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 20px;
+            }
+            >h2 {
+                margin-top: 10px;
+                font-size: 16px;
+            }
+            >input {
+                width: 400px;
+                height: 40px;
+                margin-top: 15px;
+                padding: 8px;
+                outline: none;
+                border: none;
+                border: 1px solid black;
+            }
+            >button {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                width: 170px;
+                height: 40px;
+                background: #484848;
+                border: 1px solid #000000;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                color: white;
+                cursor: pointer;
+            }
+            >.isAdmin {
+                width: 400px;
+                text-align: right;
+                margin-top: 10px;
+                >label {
+                    margin-left: 10px;
+                }
+                >input {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .add_user_forbidden {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border: 1px solid black;
+        width: 250px;
+        >p {
+            color: black;
+            padding: 40px;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}

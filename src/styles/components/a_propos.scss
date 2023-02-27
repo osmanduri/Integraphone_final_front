@@ -1,0 +1,422 @@
+.a_propos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.a_propos_inside{
+    //border: 6px solid #F0EDF0;
+    margin-top: 20px;
+    margin-bottom: 154px;
+   
+
+    >p{ 
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+}
+
+.data_a_propos{
+    margin-top: 100px;
+    //display: none;
+} 
+
+.a_propos_inside_integraphone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid #DCC28F;
+    border-radius: 10px;
+
+    margin-bottom: 40px;
+    //display: none;
+    >img{
+        width: 1160px;
+        height: 304px;
+    } 
+    >p{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        width: 60%;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+    } 
+} 
+
+
+.a_propos_presentation_integraphone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    >p{
+        text-align: center;
+        width: 635px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+
+
+    }
+    >h1{
+        text-align: center;
+    }
+
+
+}
+
+.a_propos_second_texte{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 85%;
+    height: 109px;
+    margin: auto;
+    margin-top: 130px;
+
+}
+
+.video_presentation_a_propos{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .a_propos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .a_propos_inside{
+        //border: 6px solid #F0EDF0;
+        margin-top: 20px;
+        margin-bottom: 154px;
+       
+    
+        >p{ 
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        width: 220px;
+        margin: auto;
+        
+    }
+    
+    }
+    
+    .data_a_propos{
+        margin-top: 100px;
+        //display: none;
+    } 
+    
+    .a_propos_inside_integraphone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 4px solid #DCC28F;
+        border-radius: 10px;
+    
+        margin-bottom: 40px;
+        //display: none;
+        >img{
+            width: 1160px;
+            height: 304px;
+        } 
+        >p{
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 20px;
+            width: 60%;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+        } 
+    } 
+    
+    
+    .a_propos_presentation_integraphone{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        >p{
+            text-align: center;
+            width: 250px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+    
+    
+        }
+        >h1{
+            text-align: center;
+        }
+    
+    
+    }
+    
+    .a_propos_second_texte{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 85%;
+        height: 109px;
+        margin: auto;
+        margin-top: 130px;
+    
+    }
+    
+    .video_presentation_a_propos{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    
+    .a_propos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .a_propos_inside{
+        //border: 6px solid #F0EDF0;
+        margin-top: 20px;
+        margin-bottom: 154px;
+       
+    
+        >p{ 
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        width: 320px;
+        margin: auto;
+        
+    }
+    
+    }
+    
+    .data_a_propos{
+        margin-top: 60px;
+        //display: none;
+    } 
+    
+    .a_propos_inside_integraphone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 4px solid #DCC28F;
+        border-radius: 10px;
+    
+        margin-bottom: 0px;
+        //display: none;
+        >img{
+            width: 250px;
+            height: 70px;
+        } 
+        >p{
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 20px;
+            width: 80%;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+        } 
+    } 
+    
+    
+    .a_propos_presentation_integraphone{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        >p{
+            text-align: center;
+            width: 250px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+    
+    
+        }
+        >h1{
+            text-align: center;
+        }
+    
+    
+    }
+    
+    .a_propos_second_texte{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 85%;
+        height: 109px;
+        margin: auto;
+        margin-top: 130px;
+    
+    }
+    
+    .video_presentation_a_propos{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .a_propos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .a_propos_inside{
+        //border: 6px solid #F0EDF0;
+        margin-top: 20px;
+        margin-bottom: 154px;
+       
+    
+        >p{ 
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+        width: 600px;
+        margin: auto;
+        
+    }
+    
+    }
+    
+    .data_a_propos{
+        margin-top: 100px;
+        //display: none;
+    } 
+    
+    .a_propos_inside_integraphone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 4px solid #DCC28F;
+        border-radius: 10px;
+    
+        margin-bottom: 0px;
+        //display: none;
+        >img{
+            width: 500px;
+            height: 150px;
+        } 
+        >p{
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 20px;
+            width: 80%;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+        } 
+    } 
+    
+    
+    .a_propos_presentation_integraphone{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        >p{
+            text-align: center;
+            width: 250px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0em;
+    
+    
+        }
+        >h1{
+            text-align: center;
+        }
+    
+    
+    }
+    
+    .a_propos_second_texte{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 85%;
+        height: 109px;
+        margin: auto;
+        margin-top: 130px;
+    
+    }
+    
+    .video_presentation_a_propos{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    
+
+}

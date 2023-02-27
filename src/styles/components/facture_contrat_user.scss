@@ -1,0 +1,252 @@
+.facture_date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    >.facture_date_details {
+        text-align: right;
+        >label {
+            margin-right: 20px;
+        }
+        >.trier_facture_date_select {
+            height: 100%;
+            width: 200px;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            >option {
+                width: 100%;
+                cursor: pointer;
+            }
+        }
+        >.trier_type_contrat_select {
+            height: 100%;
+            width: 200px;
+            text-align: center;
+            font-size: 14px;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            >option {
+                width: 100%;
+                cursor: pointer;
+                font-size: 14px;
+            }
+        }
+    }
+    >.facture_date_profile {
+        display: flex;
+        align-items: center;
+        >img {
+            width: 100px;
+            height: 100px;
+        }
+        >h3 {
+            font-size: 25px;
+            margin-left: 15px;
+        }
+    }
+}
+
+.facture_cards_inside_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 40px;
+    >p {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    >.textL {
+        margin-left: 10px;
+    }
+    >.textR {
+        margin-right: 10px;
+    }
+}
+
+.facture_cards h4 {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 320px) {
+    // petit smartphone
+    .facture_date {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        >.facture_date_details {
+            text-align: right;
+            >label {
+                margin-right: 20px;
+            }
+            >select {
+                height: 100%;
+                width: 120px;
+                text-align: center;
+                font-size: 17px;
+                border-radius: 10px;
+                outline: none;
+            }
+        }
+        >.facture_date_profile {
+            display: flex;
+            align-items: center;
+            >img {
+                width: 100px;
+                height: 100px;
+            }
+            >h3 {
+                font-size: 25px;
+                margin-left: 15px;
+            }
+        }
+    }
+    .facture_cards_inside_title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        margin-top: 40px;
+        >p {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        >.textL {
+            margin-left: 10px;
+        }
+        >.textR {
+            margin-right: 10px;
+        }
+    }
+    .facture_cards h4 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    // moyenne tablettes
+    .facture_date {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 60px;
+        >.facture_date_details {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            >label {
+                margin-right: 0px;
+            }
+            >select {
+                height: 100%;
+                width: 120px;
+                text-align: center;
+                font-size: 17px;
+                border-radius: 10px;
+                outline: none;
+            }
+        }
+        >.facture_date_profile {
+            display: flex;
+            align-items: center;
+            >img {
+                width: 100px;
+                height: 100px;
+            }
+            >h3 {
+                font-size: 25px;
+                margin-left: 0px;
+            }
+        }
+    }
+    .facture_cards_inside_title {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        margin-top: 40px;
+        >p {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        >.textL {
+            margin-left: 10px;
+        }
+        >.textR {
+            margin-right: 10px;
+        }
+    }
+    .facture_cards h4 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .facture_date {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 60px;
+        >.facture_date_details {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            >label {
+                margin-right: 0px;
+            }
+            >select {
+                height: 100%;
+                width: 120px;
+                text-align: center;
+                font-size: 17px;
+                border-radius: 10px;
+                outline: none;
+            }
+        }
+        >.facture_date_profile {
+            display: flex;
+            align-items: center;
+            >img {
+                width: 100px;
+                height: 100px;
+            }
+            >h3 {
+                font-size: 25px;
+                margin-left: 0px;
+            }
+        }
+    }
+    .facture_cards_inside_title {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        margin-top: 40px;
+        >p {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        >.textL {
+            margin-left: 10px;
+        }
+        >.textR {
+            margin-right: 10px;
+        }
+    }
+    .facture_cards h4 {
+        margin-top: 30px;
+    }
+}

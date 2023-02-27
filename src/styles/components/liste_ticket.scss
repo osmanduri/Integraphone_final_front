@@ -1,0 +1,366 @@
+.liste_ticket_inside{
+        border: 10px solid #DCC28F;
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+
+        >p{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+
+        >.rechercher{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            >input{
+                margin-top: 20px;
+                width: 400px;
+                height: 40px;
+                padding-left: 10px;
+                outline: none;
+            }
+        }
+
+
+    }
+
+
+.liste_ticket_composant{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.liste_ticket_composant_outside{
+    margin-top: 40px;
+}
+
+.liste_ticket_composant_inside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    >a{
+        background: #C4C4C4;
+        width: 600px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        padding: 13px;
+        display: flex;
+        justify-content: space-between;
+
+        >p{
+            font-size: 14px;
+        }
+    }
+}
+
+.point_status_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.point_status{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    
+}
+
+.liste_ticket_logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    >img{
+        width: 215px;
+        height: 210px;
+        border: 7px solid #BB8D33;
+        border-radius: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 320px){ // petit smartphone
+    .liste_ticket_inside{
+        border: 7px solid #DCC28F;
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+
+        >p{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+
+        >.rechercher{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            >input{
+                margin-top: 20px;
+                width: 80%;
+                height: 40px;
+                padding-left: 10px;
+                outline: none;
+            }
+        }
+        >.liste_ticket_logo{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            >img{
+                width: 215px;
+                height: 210px;
+                border: 7px solid #BB8D33;
+                border-radius: 100%;
+    
+            }
+        }
+
+    }
+
+
+.liste_ticket_composant{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.liste_ticket_composant_outside{
+    margin-top: 40px;
+}
+
+.liste_ticket_composant_inside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    >a{
+        background: #C4C4C4;
+        width: 90%;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        padding: 13px;
+        display: flex;
+        justify-content: space-between;
+
+        >p{
+            font-size: 14px;
+        }
+    }
+}
+
+.point_status_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.point_status{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+    .liste_ticket_inside{
+        border: 7px solid #DCC28F;
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+
+        >p{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+
+        >.rechercher{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            >input{
+                margin-top: 20px;
+                width: 80%;
+                height: 40px;
+                padding-left: 10px;
+                outline: none;
+            }
+        }
+        >.liste_ticket_logo{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            >img{
+                width: 215px;
+                height: 210px;
+                border: 7px solid #BB8D33;
+                border-radius: 100%;
+    
+            }
+        }
+
+    }
+
+
+.liste_ticket_composant{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.liste_ticket_composant_outside{
+    margin-top: 40px;
+}
+
+.liste_ticket_composant_inside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    >a{
+        background: #C4C4C4;
+        width: 80%;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        padding: 13px;
+        display: flex;
+        justify-content: space-between;
+
+        >p{
+            font-size: 14px;
+        }
+    }
+}
+
+.point_status_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.point_status{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    
+}
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .liste_ticket_inside{
+        border: 7px solid #DCC28F;
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 100px;
+
+        >p{
+            text-align: center;
+            margin-top: 40px;
+            font-size: 22px;
+        }
+
+        >.rechercher{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            >input{
+                margin-top: 20px;
+                width: 80%;
+                height: 40px;
+                padding-left: 10px;
+                outline: none;
+            }
+        }
+        >.liste_ticket_logo{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            >img{
+                width: 215px;
+                height: 210px;
+                border: 7px solid #BB8D33;
+                border-radius: 100%;
+    
+            }
+        }
+
+    }
+
+
+.liste_ticket_composant{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.liste_ticket_composant_outside{
+    margin-top: 40px;
+}
+
+.liste_ticket_composant_inside{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    >a{
+        background: #C4C4C4;
+        width: 80%;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        padding: 13px;
+        display: flex;
+        justify-content: space-between;
+
+        >p{
+            font-size: 14px;
+        }
+    }
+}
+
+.point_status_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.point_status{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    
+}
+
+}

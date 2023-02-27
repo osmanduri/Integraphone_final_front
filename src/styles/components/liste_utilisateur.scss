@@ -1,0 +1,393 @@
+.liste_utilisateur {
+    width: 1376px;
+    margin: auto;
+    >h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    >.liste_utilisateur_inside {
+        border: 7px solid #DCC28F;
+        margin: auto;
+        padding: 40px;
+        margin-top: 40px;
+        >.liste_utilisateur_inside_search {
+            display: flex;
+            justify-content: center;
+            >input {
+                width: 300px;
+                height: 50px;
+                padding-left: 20px;
+                outline: none;
+            }
+        }
+        >.liste_utilisateur_inside_liste {
+            transition: all 0.5s ease-in-out;
+            >i {
+                position: absolute;
+                color: blue;
+            }
+            >.liste_utilisateur_inside_liste_key {
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                margin: auto;
+                >h4 {
+                    width: 100px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 12px;
+                    text-transform: uppercase;
+                }
+                >p {
+                    width: 100px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 12px;
+                }
+            }
+            >.liste_utilisateur_inside_liste_key_axios {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid black;
+                border-radius: 10px;
+                width: 80%;
+                margin: auto;
+                margin-top: 30px;
+                cursor: pointer;
+                background: #C4C4C4;
+                position: relative;
+                >a {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    >p {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                    }
+                }
+                >i {
+                    position: absolute;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    left: 1100px;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+
+.client_uppercase {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 320px) {
+    // petit smartphone
+    .liste_utilisateur {
+        width: 80%;
+        margin: auto;
+        >h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+        >.liste_utilisateur_inside {
+            border: 7px solid #DCC28F;
+            margin: auto;
+            padding: 40px;
+            margin-top: 40px;
+            >.liste_utilisateur_inside_search {
+                display: flex;
+                justify-content: center;
+                >input {
+                    width: 300px;
+                    height: 50px;
+                    padding-left: 20px;
+                    outline: none;
+                }
+            }
+            >.liste_utilisateur_inside_liste {
+                >i {
+                    position: absolute;
+                    color: blue;
+                }
+                >.liste_utilisateur_inside_liste_key {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 80%;
+                    margin: auto;
+                    >h4 {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                        text-transform: uppercase;
+                    }
+                    >p {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                    }
+                }
+                >.liste_utilisateur_inside_liste_key_axios {
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    width: 80%;
+                    margin: auto;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    background: #C4C4C4;
+                    position: relative;
+                    >a {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        >p {
+                            width: 100%;
+                            height: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 12px;
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                    }
+                    >i {
+                        position: absolute;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        left: 85%;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {
+    // moyenne tablettes
+    .liste_utilisateur {
+        width: 80%;
+        margin: auto;
+        >h1 {
+            text-align: center;
+            font-size: 20px;
+            width: 80%;
+            margin: auto;
+        }
+        >.liste_utilisateur_inside {
+            border: 3px solid #DCC28F;
+            margin: auto;
+            padding: 40px;
+            margin-top: 40px;
+            width: 100%;
+            >.liste_utilisateur_inside_search {
+                display: flex;
+                justify-content: center;
+                >input {
+                    width: 80%;
+                    height: 50px;
+                    padding-left: 20px;
+                    outline: none;
+                    &::placeholder {
+                        font-size: 11px;
+                    }
+                }
+            }
+            >.liste_utilisateur_inside_liste {
+                >i {
+                    position: absolute;
+                    color: blue;
+                }
+                >.liste_utilisateur_inside_liste_key {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 80%;
+                    margin: auto;
+                    display: none;
+                    >h4 {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                        text-transform: uppercase;
+                    }
+                    >p {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                    }
+                }
+                >.liste_utilisateur_inside_liste_key_axios {
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    width: 80%;
+                    margin: auto;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    background: #C4C4C4;
+                    position: relative;
+                    >a {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        font-size: 12px;
+                        >p {
+                            width: 100%;
+                            height: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 12px;
+                            font-size: 12px;
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                    }
+                    >i {
+                        position: absolute;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        left: 85%;
+                        top: 120px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .liste_utilisateur {
+        width: 80%;
+        margin: auto;
+        >h1 {
+            text-align: center;
+            font-size: 20px;
+            width: 50%;
+            margin: auto;
+        }
+        >.liste_utilisateur_inside {
+            border: 3px solid #DCC28F;
+            margin: auto;
+            padding: 40px;
+            margin-top: 40px;
+            width: 100%;
+            >.liste_utilisateur_inside_search {
+                display: flex;
+                justify-content: center;
+                >input {
+                    width: 50%;
+                    height: 50px;
+                    padding-left: 20px;
+                    outline: none;
+                    &::placeholder {
+                        font-size: 11px;
+                    }
+                }
+            }
+            >.liste_utilisateur_inside_liste {
+                >i {
+                    position: absolute;
+                    color: blue;
+                }
+                >.liste_utilisateur_inside_liste_key {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 80%;
+                    margin: auto;
+                    display: none;
+                    >h4 {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                        text-transform: uppercase;
+                    }
+                    >p {
+                        width: 100px;
+                        height: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 12px;
+                    }
+                }
+                >.liste_utilisateur_inside_liste_key_axios {
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    width: 50%;
+                    margin: auto;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    background: #C4C4C4;
+                    position: relative;
+                    >a {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 100%;
+                        font-size: 12px;
+                        >p {
+                            width: 100%;
+                            height: 30px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 12px;
+                            font-size: 12px;
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                    }
+                    >i {
+                        position: absolute;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        left: 90%;
+                        top: 120px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
